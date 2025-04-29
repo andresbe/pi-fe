@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 .dashboardContainer {
     max-width: 400px;
     margin: auto;
