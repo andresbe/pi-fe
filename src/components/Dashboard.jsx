@@ -15,7 +15,7 @@ const Dashboard = ({ SidebarToggle, setSidebarToggle }) => {
   };
 
   return (
-    <div className={`${SidebarToggle ? "" : "ml-64"} w-full`}>
+    <div className={`${SidebarToggle ? "" : ""} w-full`}>
       <Navbar SidebarToggle={SidebarToggle} setSidebarToggle={setSidebarToggle} />
       <button className={styles.logoutButton} onClick={handleLogout}>
         Logout
