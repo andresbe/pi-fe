@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { FaBars, FaUserCircle, FaBell } from 'react-icons/fa'
 export const Navbar = ({SidebarToggle, setSidebarToggle}) => {
   return (
-    <nav className='bg-gray-800 px-4 py-3 felx justify-between ml-64'>
+    <nav className='nav-container bg-gray-800'>
         <div className='flex items-center text-xl'>
             <FaBars className='text-white me-4 cursor-pointer' onClick={() => setSidebarToggle(!SidebarToggle)}/>
             <span className='text-white font-semibold'>Proyecto Integrador</span>
